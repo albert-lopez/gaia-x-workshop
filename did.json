@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+  ],
+  "id": "did:web:github.com:albert-lopez:gaia-x-workshop",
+  "verificationMethod": [
+    {
+      "id": "did:web:github.com:albert-lopez:gaia-x-workshop#key1",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "zAcMs_7nZbLCEtABjDOkkdisC_J384_jNrLlOPbX3w1wGK2D486yxtdrC4flx14TXcB4L5ER9Wad1vL8o9dVDVPU40przMmbJH-2YQSul0hSS9Y1iGyS_aEuh2U7qA_1hs4FIneRn5nXVCCR1a274ifnMDT1J14rzjrYUu3UipKHxQhEQZqIdm2uuy4FOUO407Q8zPvy5AgaQ4SjRUwCke9RBlf8UKwhFqdNRtvDXRr5vydrhr5gHa698gc8VeKq6CGlLjT9UL2lAbDoDvBlK-5mhQpk_q7YU39lFYz1ngrrWni_8caxsyZu7O3RFfzr5MGWh5CSHlPJzdqiajKrYw",
+        "e": "AQAB",
+        "alg": "RS256",
+        "x5u": "https://github.com/albert-lopez/gaia-x-workshop/cert.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:github.com:albert-lopez:gaia-x-workshop#key1"
+  ]
+}
